@@ -1,6 +1,6 @@
 package com;
 
-public class Docente extends Persona {
+public class Docente extends Persona implements i_CalculosDocente{
 
     private double sueldo;
     private String titulo;
